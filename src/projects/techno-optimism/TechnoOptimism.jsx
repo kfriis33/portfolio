@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import IconButton from '@material-ui/core/IconButton';
 import CancelIcon from '@material-ui/icons/Cancel';
+import TechnoGif from './techno.gif'
 
 class TechnoOptimism extends Component {
     constructor(props) {
@@ -22,6 +23,9 @@ class TechnoOptimism extends Component {
 
                 <h3>Project Summary</h3>
                 <p>These questions led us to focusing on the written language that pushes forward overly positive views of technology. We brainstormed various text-based data sources that might have this agenda such as company mission statements and websites, and then brainstormed text-based data sources that might provide contrast such as news articles, court cases, and academia. We created datasets for ourselves using web scraping, then used natural language processing to analyze them to find the most commonly used words, the most common verbs and adjectives, and the sentiment rating of the text as a whole. Finally, we made data visualizations of these results and displayed them on a public website. By quantifying the trends of language used by different technology stakeholders and creating visualizations of them, we sought to reveal the fluff that’s used to make technology seem like an entirely positive, world-changing good and display the dissonance between this language and technology’s true impact.</p>
+                <div className="content-card">
+                <img src={TechnoGif} alt="Screenshot recording of website" width="500px" />
+                </div>
 
                 <h2>Final Application & Code</h2>
                 <p> Check out the <a href="">final web application</a> and the project's <a href="">source code on GitHub</a>!</p>
