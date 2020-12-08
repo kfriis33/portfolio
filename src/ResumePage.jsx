@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import resume from './assets/resume.pdf';
+import resume from './assets/placeholder_resume.pdf';
 // import { OpenInNew } from '@material-ui/icons';
 
 class ResumePage extends Component {

@@ -25,38 +25,39 @@ export default class App extends React.Component {
     super(props);
 
     this.state = {
-      currPage: pages['projects']
+      currPage: 'projects'
     }
   }
 
   changePage = (key) => {
-    const newPage = pages[key]
-    this.setState({currPage:newPage})
+    this.setState({currPage:key})
   }
   render() {
     return (
       <div>
         <div className='header'>
-          <h1>Katie Friis</h1>
-          <h4>Computer Science Student @Brown</h4>
-            <Navbar>
+          <h1 className="name-title">Jeff Huang</h1>
+          <p className="subheader">CS student @ Brown</p>
+            <Navbar className="pt-2" variant="light">
               <Nav 
               className="m-auto nav"
-              activeKey='projects'
+              activeKey={this.state.currPage}
               onSelect={(selectedKey) => this.changePage(selectedKey)}
               >
-                <Nav.Link eventKey='projects'>Projects</Nav.Link>
-                <Nav.Link eventKey='about'>About</Nav.Link>
-                <Nav.Link eventKey='resume'>Resume</Nav.Link>
+                <Nav.Link className="mx-1" eventKey='projects'>Projects</Nav.Link>
+                <Nav.Link className="mx-1" eventKey='about'>About</Nav.Link>
+                <Nav.Link className="mx-1" eventKey='resume'>Resume</Nav.Link>
               </Nav>
             </Navbar>
+          
         </div>
-        <div>
-          {this.state.currPage.content}
+        
+        <div className="main-body">
+          {pages[this.state.currPage].content}
         </div>
         <footer id="footer">
           <hr/>
-          Thanks for visiting! This site is built in React.js, check out the source code.
+          Thanks for visiting! This site is built in React.js, check out the <a href="https://github.com/kfriis33/portfolio">source code</a>.
         </footer>
       </div>
     );

@@ -31,25 +31,18 @@ class IterativeDesign extends Component {
     render() {
         return (
             <div>
-              <h3><i>Iterative Design</i></h3>
-              <h1>Carbon Chain</h1>
-              <hr></hr>
               <div>
                 <h2>Overview</h2>
-                <p>Our startup was Carbon Chain, which provides software for companies to more accurately and 
-                  efficiently track their carbon emissions. Carbon Chain’s main users are gas and oil companies, 
-                  regulators, and carbon traders. Carbon Chain’s product tracks carbon emissions down to each piece 
-                  of equipment used in a supply chain. 
-                  <br />
-                  <br />
-                  We decided to design their main product’s interface for a 
-                  user to view emissions and supply chains. We imagined that our users would each have custom needs 
+                <p>In this project, I worked with two teammates to design an application for the Y-Combinator start-up <a href="https://carbonchain.io/">Carbon Chain</a>. Throughout our design process, we never looked at Carbon Chain's website or product and based our design off of the loose premise of their start up: software to help companies––mostly gas and oil companies, 
+                  regulators, and carbon traders––estimate and track the carbon emissions of their supply chains.
+
+                </p>
+                <p>
+                  We decided to design the main product’s interface for a 
+                  user to view their company's emissions and supply chains. We imagined that our users would each have custom needs 
                   in terms of what data was most important to them. Companies or regulators are dealing with vast 
                   amounts of data and ever changing regulations, so we wanted our interface to be customizable, 
                   simple, and insightful.
-                  <br />
-                  <br />
-                  Read more about Carbon Chain <a href="https://techcrunch.com/2020/08/21/carbonchain-is-using-ai-to-determine-the-emissions-profile-of-the-worlds-biggest-polluters/">here</a>.
                 </p>
               </div>
               <h2>Design Process</h2>
@@ -234,6 +227,7 @@ class IterativeDesign extends Component {
                 <p>Next, we gathered more feedback on our interface through user testing. We submitted our prototype, 
                   a task, and follow-up questions and got responses from 3 users.</p>
                 <h3>Taks and Questions for Users</h3>
+                <div className="reduced-line-height">
                 <ul>
                   <li>Main Task:</li>
                   <ul>
@@ -255,43 +249,53 @@ class IterativeDesign extends Component {
                     <li>Would you add anything to the site? Were there any features you wished to see?</li>
                   </ul>
                 </ul>
+                </div>
                 <h3>Results</h3>
                 <p>Below are the three users' answers to the post-test questions and gifs of how they interacted with the prototype.
-                </p><div className="result-grid">
-                  <div className="result-block1 bubble">
-                    <p>User 1 Answers</p>
-                    <ul>
-                      <li>Rated hardness at a 3 (out of 6) because it was confusing to find out where to edit each step of the supply chain.</li>
-                      <li>Suggested adding small images or symbols that go hand to hand and explain the work being done at each step of the supply chain. Also suggested better clarifying the goal of the website and reducing the font of the number that tracks total CO2 emissions /year. </li>
-                      <li>Liked the fact that it gives a step wise detailed picture of the process of natural resources extraction and manufacturing because you can see in detail what happens at each step. </li>
-                      <li>Maybe would add more visuals so that the user can get a better idea of what is this website about.</li>
+                </p>
+                <h4>User 1</h4>
+                <div className="row">
+                  
+                  <div className="col-md-5 bubble ">
+                  <ul>
+                      <li>Rated hardness at a 3 (out of 6) because confusing to edit each step of the supply chain.</li>
+                      <li>Suggested adding symbols to visually explain each step of the supply chain and, clarifying the goal of the website, and reducing fontsize of the total CO2 emissions/year. </li>
+                      <li>Liked that it gives a step-wise detailed display of each supply chain. </li>
+                      <li>Maybe would add more visuals to give the user a better sense of what the site is about.</li>
                     </ul>
+                    
                   </div>
-                  <div className="result-block2">
-                    <img src={User1Gif} alt="" width="500px" />
+                  <div className="col-md-7 ">
+                  <img src={User1Gif} alt="" width="500px" />
+
+                    
                   </div>
-                  <div className="result-block3 bubble">
-                    <p>User 2 Answers</p>
+                </div>
+                <h4>User 2</h4>
+                <div className="row">  
+                  <div className="col-md-5 bubble">
                     <ul>
                       <li>Rated hardness at a 3 (out of 6).</li>
-                      <li>Suggested adding some icons to illustrate the menus and some info showing from the options when you hover your mouse over it.</li>
+                      <li>Suggested adding icons to illustrate the menus and options when you hover your mouse over it.</li>
                       <li>Liked that its pretty simple not many things to look at.</li>
                       <li>Maybe would add a comparison between your emissions and the ones of the same industry in different countries.</li>
                     </ul>
                   </div>
-                  <div className="result-block4">
+                  <div className="col-md-7">
                     <img src={User2Gif} alt="" width="500px" />
                   </div>
-                  <div className="result-block5 bubble">
-                    <p>User 3 Answers</p>
+                </div>
+                <h4>User 3</h4>
+                <div className="row">
+                  <div className="col-md-5 bubble">
                     <ul>
                       <li>Rated hardness at a 0 - very intuitive and the navigation was simple and logical.</li>
-                      <li>Maybe would make the visuals a bit more appealing and provide more functionality with regards to editing the supply chain.</li>
-                      <li>Liked that it was imple, easy to navigate and a clean, professional design.</li>
-                      <li>Would improve the visuals to make it a more modern and visually attractive page. Also would increase the functionality on the supply chain editing page, such as other parts of the supply chain which could be edited.</li>
+                      <li>Suggested making the visuals more appealing and providing more functionality when editing the supply chain.</li>
+                      <li>Liked that it was imple, easy to navigate, and a clean, professional design.</li>
+                      <li>Would improve the visuals to make it a more modern and visually attractive page.</li>
                     </ul>
                   </div>
-                  <div className="result-block6">
+                  <div className="col-md-7">
                     <img src={User3Gif} alt="" width="500px" />
                   </div>
                 </div>
@@ -306,8 +310,8 @@ class IterativeDesign extends Component {
                     (at least for first time users) or incorporate it into the customize dashboard button at the top. Based on the written feedback, we also could include more icons throughout the website and add back in our compare feature.</li>
                 </ul>
               </div>
-              <br />
-              <br />
+              <h2>Learnings & Takeaways</h2>
+              <p>I learned a lot from the feedback we recieved throughout this project. First, hearing verbal feedback during our crit was valuable in seeing what others thought from a more high-level pass of our website. A lot of what we heard back was about the visual style and overall aesthetic. From user testing, being able to watch how someone used the prototype and tried to navigate through it was extremely interesting, especially since I had never done any sort of formal user testing with strangers before. I found this feedback to be extremely authentic and insgihtful into the usability strenghths and weakenesses of the prototype, and I definitley plan to use this technique again in the future to test my designs!</p>
             </div>
           );
     }
