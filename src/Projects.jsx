@@ -98,7 +98,7 @@ class Projects extends Component {
 
             "quarantine-cards": {key:"quarantine-cards", title:"Quarantine Cards", description:"React.js Development", page:<QuarantineCards/>, img:QuarantineCardImg, links:[{name:"Final site", link:"https://salty-beyond-44732.herokuapp.com/"}, {name:"Source code", link:"https://github.com/kfriis33/quarantine-cards", icon:<GitHubIcon fontSize="small"/>}]},
 
-            "techno-optimism": {key:"techno-optimism", title:"Visualizing Techno-Optimism", description:"Data Visualization", page:<TechnoOptimism/>, img:TechnoCardImg, links:[{name:"Source code", link:"https://github.com/kfriis33/tech-data-viz", icon:<GitHubIcon fontSize="small"/>}]},
+            "techno-optimism": {key:"techno-optimism", title:"Visualizing Techno-Optimism", description:"Data Visualization", page:<TechnoOptimism/>, img:TechnoCardImg, links:[{name:"Current site", link:"https://techno-optimism.herokuapp.com/"}, {name:"Source code", link:"https://github.com/kfriis33/tech-data-viz", icon:<GitHubIcon fontSize="small"/>}]},
 
             "iterative-design": {key:"iterative-design", title:"Carbon Chain Redesign", description:"Iterative design", page:<IterativeDesign/>, img:IterativeCardImg, links:[{name:"Final prototype", link:"https://www.figma.com/proto/AH5UgLKXzFH2fxYRsndTS2/Carbon-Chain?kind=&node-id=20%3A5&scaling=scale-down-width"}]},
         }
