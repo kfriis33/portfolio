@@ -51,7 +51,7 @@ class IterativeDesign extends Component {
                 <p>We began by brainstorming multiple ideas for the design of the website. To get the greatest diversity of ideas, we first each brainstormed individually and made a sketch for how we thought the design could look. We then looked at all three sketches together and mixed and matched different ideas to come up with a fourth sketch.</p>
 
 
-                <div className="row">
+                <div className="row mx-2">
                   <div className="col-md-6">
                     <h5>Sketch 1</h5>
                     <Carousel interval={null} className="sketch-container">
@@ -100,7 +100,7 @@ class IterativeDesign extends Component {
                     </Carousel>
                   </div>
                 </div>
-                <div className="row mt-3">
+                <div className="row mt-3 mx-2">
                   <div className="col-md-6">
                     <h5>Sketch 3</h5>
                     <Carousel interval={null} className="sketch-container">
