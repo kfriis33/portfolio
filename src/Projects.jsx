@@ -1,8 +1,6 @@
 import React, {Component} from 'react'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-import Badge from 'react-bootstrap/Badge'
-import Button from 'react-bootstrap/Button'
 import QuarantineCards from './projects/quarantine-cards/QuarantineCards'
 import WilsonFarm from './projects/wilson-farm/WilsonFarm'
 
@@ -119,7 +117,7 @@ class Projects extends Component {
                     {/* <div className="card-div" style={{backgroundColor:colors[item.key]}}
 >
                     </div> */}
-                    <Card.Img variant="top" src={item.img}/>
+                    <Card.Img variant="top" src={item.img} alt="project image"/>
 
                     <Card.Body>
                     <Card.Title className="card-title">{item.title} </Card.Title>

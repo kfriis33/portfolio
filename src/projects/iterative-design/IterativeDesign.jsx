@@ -266,7 +266,7 @@ class IterativeDesign extends Component {
                     
                   </div>
                   <div className="col-md-7 ">
-                  <img src={User1Gif} alt="" width="500px" />
+                  <img src={User1Gif} alt="User 1 screen recording" width="500px" />
 
                     
                   </div>
@@ -282,7 +282,7 @@ class IterativeDesign extends Component {
                     </ul>
                   </div>
                   <div className="col-md-7">
-                    <img src={User2Gif} alt="" width="500px" />
+                    <img src={User2Gif} alt="User 2 screen recording" width="500px" />
                   </div>
                 </div>
                 <h4>User 3</h4>
@@ -296,7 +296,7 @@ class IterativeDesign extends Component {
                     </ul>
                   </div>
                   <div className="col-md-7">
-                    <img src={User3Gif} alt="" width="500px" />
+                    <img src={User3Gif} alt="User 3 screen recording" width="500px" />
                   </div>
                 </div>
                 <h3>Analysis and Future Changes</h3>

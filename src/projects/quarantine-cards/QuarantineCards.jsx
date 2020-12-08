@@ -1,9 +1,6 @@
 import React, {Component} from 'react'
-import IconButton from '@material-ui/core/IconButton';
-import CancelIcon from '@material-ui/icons/Cancel';
 
 import AppScreenshot from "./screenshot.png"
-import LaunchIcon from '@material-ui/icons/Launch';
 
 
 class QuarantineCards extends Component {

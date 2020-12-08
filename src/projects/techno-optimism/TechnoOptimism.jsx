@@ -1,6 +1,4 @@
 import React, {Component} from 'react'
-import IconButton from '@material-ui/core/IconButton';
-import CancelIcon from '@material-ui/icons/Cancel';
 import TechnoGif from './techno.gif'
 
 class TechnoOptimism extends Component {

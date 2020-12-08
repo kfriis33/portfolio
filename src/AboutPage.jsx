@@ -1,9 +1,6 @@
 import React, {Component} from 'react'
 import ProfileImg from './assets/profile.png'
 class AboutPage extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (
@@ -15,7 +12,7 @@ class AboutPage extends Component {
 
                 </div>
                 <div className="col-lg-6">
-                    <img className="about-img" src={ProfileImg} alt="Picture of me"/>
+                    <img className="about-img" src={ProfileImg} alt="Profile pic"/>
                 </div>
             </div>
         )
