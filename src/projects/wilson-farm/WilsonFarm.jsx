@@ -36,7 +36,7 @@ class WilsonFarm extends Component {
                   <ul>
                         <li>Slideshow contains text and scrolls through quickly; feels cluttered and overwhelming
                         </li>
-                        <li>Lack of a consistent layout or text hierarchy makes it unclear in what order to traverse the page in
+                        <li><strong>Lack of a consistent layout or text hierarchy</strong> makes it unclear in what order to traverse the page in
                         </li>
                         <li>"Social media navbar" is distracting from the real navbar below it
                         </li>
@@ -48,7 +48,7 @@ class WilsonFarm extends Component {
                 <h5>Memorability</h5>
                   <ul>
                         <li>Overall clutteredness makes it hard to remember where things are on the page</li>
-                        <li>Multitude of colors and fonts is visually overwhelming and makes it hard to remember what an element looked like
+                        <li><strong>Multitude of colors and fonts</strong> is visually overwhelming and makes it hard to remember what an element looked like
                         </li>
                       </ul>
                   </div>
@@ -61,10 +61,9 @@ class WilsonFarm extends Component {
                   <ul>
                         <li>Many navbar elements (8) with ambiguous names (i.e. “specials” for what?) 
                         </li>
-                        <li>Hard to navigate to key destinations (i.e. visiting, learning more, and ordering online)
+                        <li><strong>Hard to navigate to key destinations</strong> (i.e. visiting, learning more, and ordering online)
                         </li>
-                        <li>Difficult to read text on top of textured background, particularly the green text due to low contrast
-                        </li>
+
                         <li>Footer navigation is complex and un-intuitively organized; hard to find where you want to go
                         </li>
                       </ul>
@@ -75,11 +74,12 @@ class WilsonFarm extends Component {
                 <div className="bubble">
                   <h5>Accessibility</h5>
                   <ul>
-                <li>No alt text for the images (27 examples)</li>
-                <li>Missing a first level heading (since “Wilson Farm” title is an image)</li>
-                <li>No page regions or ARIA landmarks</li>
-                <li>Some non-heading text is coded as headings</li>
-                <li>Screen reader is extremely confusing because the blocks of information have little  order or hierarchy </li>
+                
+                <li>Screen reader is extremely confusing because the <strong>blocks of information have little order or hierarchy</strong> </li>
+                <li><strong>Hard to read text on textured background</strong> (esp. green text)
+                </li>
+                <li>Missing a first level heading ("Wilson Farm” title is an image)</li>
+                <li>No alt text for images, page regions, or ARIA landmarks</li>
               </ul>
                   </div>
                 </div>

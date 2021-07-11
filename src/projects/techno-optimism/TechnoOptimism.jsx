@@ -11,7 +11,10 @@ class TechnoOptimism extends Component {
             <div> 
                 <i>Note: this project is still being worked on and is not yet in its final form :)</i>
                 <h2>Overview</h2>
-                <p>In this project, I worked with one teammate while taking a seminar called <a href="http://cs.brown.edu/~seny/2952v/">"Algorithms for the People"</a>, which examined the societal impacts of technology. We were interested in exploring and visualizing the trend of techno-optimism, the notion that technology can continually be improved and can continually improve people’s lives and make the world a better place. From class readings and discussions throughout the semester, this notion was repeatedly debunked as we saw example after example of technologies that did more harm than good despite their “for good” framing to the public. We were interested in exploring these trends more formally, but initially we were not sure exactly how. 
+                <p>
+                    Can technology save the world? Can algorithms solve all our problems? At times in my life, I have believed the answer to these questions to be close to "yes". For awhile, all the tech companies and projects I read and heard about seemed amazing: computer models to understand diseases, algorithms to personalize education, AI to predict the results of an election. Technology could do anything, and we had only scraped the tip of what was possible.
+                </p> <p>  
+                    Senior year of college, I took a seminar called <a href="http://cs.brown.edu/~seny/2952v/">"Algorithms for the People"</a>, which examined the societal impacts of technology. In our very first reading, I learned the name for these beliefs I'd had: techno-optimism, the notion that technology can continually be improved and can continually improve people’s lives and make the world a better place. From class readings and discussions throughout the semester, this notion was repeatedly debunked as we saw example after example of technologies that did more harm than good despite their “for good” framing to the public. For our final project, a friend and I were interested in exploring these trends more formally, but initially we weren't sure exactly how. 
                 </p>
                 <h3>Guiding Questions</h3>
                 <ul>
